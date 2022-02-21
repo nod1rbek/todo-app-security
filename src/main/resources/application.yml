@@ -1,0 +1,24 @@
+remember:
+  me:
+    token:
+      key: '#$@#$WERWE%#$%#SDT#^$%^'
+      #days
+      expiry: 30
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/spring_boot_projects?currentSchema=b3_todo
+    username: nodirbek
+    password: 123
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  banner:
+    location: banner/banner.txt
+  batch:
+    job:
+      enabled: false
+
